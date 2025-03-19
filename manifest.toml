@@ -1,6 +1,6 @@
 packaging_format = 2
 
-id = "metabase"
+id = "metabase_colin"
 name = "Metabase"
 description.en = "Web database management tool"
 description.fr = "Outil web de gestion des bases de données"
@@ -19,7 +19,7 @@ code = "https://github.com/metabase/metabase"
 yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
-multi_instance = false
+multi_instance = true
 
 ldap = false
 sso = false
